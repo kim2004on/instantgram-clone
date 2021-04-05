@@ -1,0 +1,56 @@
+.header__box {
+  margin-top: 70px;
+  margin-bottom: 13px;
+  padding: 5px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+}
+.header__box span {
+  padding: 10px 30px;
+  margin-right: 200px;
+}
+
+.screen-header__titles {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__titles .screen-header__title {
+  margin: 0px 8px;
+}
+
+.margin-mi {
+  margin-top: -1px;
+}
+
+.alt-header__column-big:first-child {
+  width: 100%;
+}
+
+.chats__list__image img {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
+}
+
+.chats__list__column {
+  display: flex;
+  align-items: center;
+}
+
+.chats__list__name {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chats {
+  margin-top: 10px;
+}
+
+.chats__list {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,127 @@
+.main-profile {
+  margin-top: 65px;
+}
+
+.main-profile__image img {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+
+.main-profile__image {
+  position: relative;
+}
+
+.main-profile__image i {
+  color: blue;
+  background-color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+.main-profile__follower {
+  margin-left: 40px;
+  display: flex;
+}
+.main-profile__follower-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-profile__column {
+  display: flex;
+}
+.main-profile__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.main-profile__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin: 13px 0px;
+}
+
+.main-profile__column:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.main-profile__column:last-child button {
+  width: 190px;
+  padding: 5px 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+
+.main-profile__follower-count {
+  margin-left: 45px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.main-story img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.main-storys {
+  display: flex;
+}
+.main-story {
+  margin-top: 20px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.circle .fa-plus {
+  position: absolute;
+  bottom: 17px;
+  left: 17px;
+}
+
+.main-post__icons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 25px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.main-post__icons .fa-th {
+  margin-right: 240px;
+}
+
+.main-post__images img {
+  width: 150px;
+  height: 120px;
+}
+
+.main-post__images {
+  display: flex;
+}
+
+.main-post__image {
+  position: relative;
+}
+
+.main-post__image i {
+  color: white;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}

@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/nav-bar.css";
+@import "components/status.css";
+@import "components/screen-header.css";
+@import "components/alt-header.css";
+@import "components/header__btn.css";
+
+/*screens*/
+@import "screens/main.css";
+@import "screens/search.css";
+@import "screens/shop.css";
+@import "screens/profile.css";
+@import "screens/chats.css";
+
+body {
+  height: 145vh;
+}
+
+main {
+  margin: 0 13px;
+}
+
+.font-thick {
+  font-weight: 600;
+}
