@@ -1,0 +1,13 @@
+.header__btn {
+  margin-top: 10px;
+  display: flex;
+}
+
+.header__btn button {
+  font-weight: 600;
+  margin-right: 15px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 5px 18px;
+}

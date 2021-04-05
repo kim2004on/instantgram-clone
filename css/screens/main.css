@@ -1,0 +1,94 @@
+.profile-circle img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.profile-circle img:not(.profile-circle__my) {
+  border: 3px solid red;
+}
+
+.profile-circle {
+  position: relative;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+  padding-bottom: 8px;
+}
+
+.profile-circle span {
+  font-size: 13px;
+}
+.profile-circle i {
+  position: absolute;
+  bottom: 38px;
+  left: 38px;
+  z-index: 1;
+  color: blue;
+  background-color: white;
+  border-radius: 13px;
+}
+
+.profile-circle__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-circle__column span {
+  margin-top: 4px;
+}
+
+.profile-friend img {
+  border: 2px solid red;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 7px;
+}
+
+.profile-friend {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.main-screen__Photo img {
+  margin: 8px 0px;
+  width: 100%;
+  height: 300px;
+}
+
+.main-screen__comment {
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen__icons .fa-comment {
+  margin: 0px 7px;
+}
+
+.main-screen__explanation {
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.main-screen__explanation:nth-child(2) {
+  margin: 5px 0px;
+}
+
+.main-screen__explanation__second {
+  margin: 5px 0px;
+}
+
+.people-post {
+  margin-bottom: 20px;
+}
